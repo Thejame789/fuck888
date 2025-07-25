@@ -1,10 +1,12 @@
+'use client'
 import React from 'react'
-
 
 import Navbar from '@/components/Navbar'
 import Heaeder from '@/components/Heaeder'
 import RotatingLogos from '@/components/RotatingLogos'
 import PopularGame from '@/components/PopularGame'
+import Cardgame from  '@/components/Cardgame'
+
 export default function homepage () {
   return ( 
     <div>
@@ -18,6 +20,7 @@ export default function homepage () {
 
           <RotatingLogos/>   
           <PopularGame/>
+          <Cardgame/>
           <div className="text-white">footer</div>
     
     </div>
