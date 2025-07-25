@@ -73,8 +73,8 @@ const Cardgame = () => {
           className="mySwiper"
           >
           
-            {cards.map((card) => (
-              <SwiperSlide>
+            {cards.map((card,index) => (
+              <SwiperSlide key={index}>
               <div className="bg-white/4 max-h-96  max-w-72 mx-auto">
                 
                 <div
