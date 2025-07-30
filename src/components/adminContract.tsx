@@ -16,14 +16,17 @@ const adminContract = () => {
             </p>
         </div>
         <div className=" flex justify-end items-center">
-            <div className='flex flex-col  items-end pr-4 leading-1'>
-                <div className=' md:text-4xl text-orange-500'>
-                    <p>Admin</p> 
-                </div>            
-                <div className='text-2xl md:text-5xl font-semibold text-white'>
-                    <p>Contract</p> 
+            <div className='flex flex-col items-end pr-4 leading-5 md:leading-8'>
+                  <p className='text-[15px] md:text-[30px]  text-orange-500'
+                  >Admin</p>
+                  <p className='text-[25px] md:text-[50px] text-white'
+                  >Contract</p>
+                {/* <div className='text-xs md:text-4xl text-orange-500 '>
+                    <p>Admin</p>
                 </div>
-                 
+                <div className='text-2xl md:text-5xl font-semibold text-white'>
+                    <p>Contract</p>
+                </div> */}
             </div>
             
             <div className="main-admin flex justify-center items-center space-x-3 text-white">
