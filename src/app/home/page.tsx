@@ -6,7 +6,7 @@ import Heaeder from '@/components/Heaeder'
 import RotatingLogos from '@/components/RotatingLogos'
 import PopularGame from '@/components/PopularGame'
 import Cardgame from  '@/components/Cardgame'
-
+import AdminContract from '@/components/adminContract'
 export default function homepage () {
   return ( 
     <div>
@@ -21,7 +21,9 @@ export default function homepage () {
           <RotatingLogos/>   
           <PopularGame/>
           <Cardgame/>
-          <div className="text-white">footer</div>
+          <div className="pt-4">
+            <AdminContract/>
+          </div>
     
     </div>
   )
